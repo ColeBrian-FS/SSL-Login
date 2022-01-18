@@ -1,0 +1,28 @@
+<form action="/register" method="POST">
+  <label for="fname">First Name</label>
+  <input type="text" name="fname" id="fname" />
+  <br />
+  <label for="lname">Last Name</label>
+  <input type="text" name="lname" id="lname" />
+  <br />
+
+  <label for="email">Email</label>
+  <input required type="text" name="email" id="email" />
+  <br />
+  <label for="password">Password</label>
+  <input required type="password" name="password" id="password" />
+  <br />
+  <label for="repeat_password">Confirm Password</label>
+  <input required type="password" name="repeat_password" id="repeat_password" />
+  <br />
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="Male" />
+    <label for="html">Male</label>  
+  <input type="radio" id="female" name="gender" value="Female" />  
+  <label for="css">Female</label>
+  <br />
+  <input required type="checkbox" id="checkbox" name="checkbox" />
+  <label for="vehicle1">Terms and Conditions</label>
+  <br />
+  <button type="submit">Register</button>
+</form>
